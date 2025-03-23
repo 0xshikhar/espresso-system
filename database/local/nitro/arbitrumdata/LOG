@@ -1,0 +1,8 @@
+=============== Mar 29, 2025 (UTC) ===============
+23:17:32.965975 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:17:32.969291 db@open opening
+23:17:32.970058 version@stat F·[] S·0B[] Sc·[]
+23:17:32.970930 db@janitor F·2 G·0
+23:17:32.971019 db@open done T·1.669875ms
+23:36:20.135955 db@close closing
+23:36:20.136491 db@close done T·533.292µs

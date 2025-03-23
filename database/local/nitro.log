@@ -1,0 +1,396 @@
+INFO [03-29|23:17:29.656] Running Arbitrum nitro node              revision=development vcs.time=development
+INFO [03-29|23:17:30.048] connected to l1 chain                    l1url=https://arb-sepolia.g.alchemy.com/v2/NLWT_oEEH-U45ytXB40iy-zT5Yik3tla l1chainid=421,614
+INFO [03-29|23:17:31.176] Using leveldb as the backing database
+INFO [03-29|23:17:31.176] Allocated cache and file handles         database=/home/user/.arbitrum/local/nitro/l2chaindata cache=16.00MiB handles=16 readonly=true
+INFO [03-29|23:17:31.179] Using leveldb as the backing database
+INFO [03-29|23:17:31.179] Allocated cache and file handles         database=/home/user/.arbitrum/local/nitro/l2chaindata cache=2.00GiB handles=512
+INFO [03-29|23:17:31.194] Using LevelDB as the backing database
+INFO [03-29|23:17:31.209] Opened ancient database                  database=/home/user/.arbitrum/local/nitro/l2chaindata/ancient/chain readonly=false
+ERROR[03-29|23:17:31.212] Head block is not reachable
+INFO [03-29|23:17:31.212] Using leveldb as the backing database
+INFO [03-29|23:17:31.212] Allocated cache and file handles         database=/home/user/.arbitrum/local/nitro/wasm cache=2.00GiB handles=512
+INFO [03-29|23:17:31.379] Using LevelDB as the backing database
+INFO [03-29|23:17:31.380] State scheme set by user                 scheme=hash
+INFO [03-29|23:17:31.381] Setting codehash position in rebuilding of wasm store to done
+INFO [03-29|23:17:31.381] Initializing                             ancients=0 genesisBlockNr=0
+INFO [03-29|23:17:32.914] Read serialized chain config from init message json="{\"chainId\":336699,\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"EnableEspresso\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":false,\"InitialArbOSVersion\":10,\"InitialChainOwner\":\"0xb4beF264785fd51D80347f578E0245fCcdF3C055\",\"GenesisBlockNum\":0}}"
+ERROR[03-29|23:17:32.918] Zero state root hash!
+ERROR[03-29|23:17:32.919] Zero state root hash!
+INFO [03-29|23:17:32.921] addresss table import complete
+INFO [03-29|23:17:32.922] retryables import complete
+INFO [03-29|23:17:32.928] Persisted trie from memory database      nodes=90 size=10.27KiB time="956.125µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=0 livesize=0.00B
+INFO [03-29|23:17:32.928] Persisted trie from memory database      nodes=0  size=0.00B    time="1.667µs"   gcnodes=0 gcsize=0.00B gctime=0s livenodes=0 livesize=0.00B
+INFO [03-29|23:17:32.932] wrote genesis block                      number=0 hash=ae021d..fcd41e
+INFO [03-29|23:17:32.933] 
+INFO [03-29|23:17:32.934] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [03-29|23:17:32.934] Chain ID:  336699 (unknown)
+INFO [03-29|23:17:32.935] Consensus: Clique (proof-of-authority)
+INFO [03-29|23:17:32.936] 
+INFO [03-29|23:17:32.937] Pre-Merge hard forks (block based):
+INFO [03-29|23:17:32.938]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [03-29|23:17:32.938]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [03-29|23:17:32.939]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [03-29|23:17:32.940]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [03-29|23:17:32.940]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [03-29|23:17:32.941]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [03-29|23:17:32.941]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [03-29|23:17:32.942]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [03-29|23:17:32.942]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)
+INFO [03-29|23:17:32.943]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [03-29|23:17:32.944]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [03-29|23:17:32.944] 
+INFO [03-29|23:17:32.945] The Merge is not yet available for this network!
+INFO [03-29|23:17:32.945]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [03-29|23:17:32.946] 
+INFO [03-29|23:17:32.946] Post-Merge hard forks (timestamp based):
+INFO [03-29|23:17:32.947] 
+INFO [03-29|23:17:32.948] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [03-29|23:17:32.949] 
+INFO [03-29|23:17:32.950] Loaded most recent local block           number=0 hash=ae021d..fcd41e td=1 age=56y2w2d
+WARN [03-29|23:17:32.950] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [03-29|23:17:32.952] Rebuilding state snapshot
+INFO [03-29|23:17:32.955] Resuming state snapshot generation       root=831478..7e07e0 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=1.690ms
+INFO [03-29|23:17:32.955] Initialized transaction indexer          range="last 126230400 blocks"
+INFO [03-29|23:17:32.957] Generated state snapshot                 accounts=17 slots=50 storage=5.15KiB dangling=0 elapsed=3.519ms
+INFO [03-29|23:17:32.960] Setting rebuilding of wasm store to done
+INFO [03-29|23:17:32.961] Using leveldb as the backing database
+INFO [03-29|23:17:32.962] Allocated cache and file handles         database=/home/user/.arbitrum/local/nitro/arbitrumdata cache=16.00MiB handles=16
+INFO [03-29|23:17:32.971] Using LevelDB as the backing database
+INFO [03-29|23:17:33.620] Reading message result remotely.         count=1
+WARN [03-29|23:17:33.622] Cgroups V1 or V2 is unsupported, memory-free-limit feature inside block-validator is disabled
+INFO [03-29|23:17:33.623] Disabling data poster storage, as parent chain appears to be an Arbitrum chain without a mempool
+INFO [03-29|23:17:33.925] Disabling data poster storage, as parent chain appears to be an Arbitrum chain without a mempool
+INFO [03-29|23:17:34.499] Starting peer-to-peer node               instance=nitro/vdevelopment/linux-arm64/go1.23.1
+WARN [03-29|23:17:34.499] P2P server will be useless, neither dialing nor listening
+INFO [03-29|23:17:34.518] HTTP server started                      endpoint=[::]:8547 auth=false prefix= cors= vhosts=
+INFO [03-29|23:17:34.520] WebSocket enabled                        url=ws://[::]:8548
+INFO [03-29|23:17:34.519] New local node record                    seq=1,743,290,254,513 id=2b4a81e02714ab74 ip=127.0.0.1 udp=0 tcp=0
+INFO [03-29|23:17:34.522] Started P2P networking                   self=enode://0b843eff1e8624645ae048b980a3519474c41427f10f86f368ec934faefd9cb23419b08fc99cef31ed7f7990548e809a3a383c5421bbb53b70ea640718ea393e@127.0.0.1:0
+INFO [03-29|23:17:34.803] InboxTracker                             SequencerBatchCount=0
+WARN [03-29|23:17:37.294] empty sequencer message
+WARN [03-29|23:17:37.298] reading virtual delayed message segment  delayedMessagesRead=0 afterDelayedMessages=1
+INFO [03-29|23:17:37.299] InboxTracker                             sequencerBatchCount=1 messageCount=1 l1Block=137,224,738 l1Timestamp=2025-03-29T22:58:30+0000
+INFO [03-29|23:17:37.308] Enqueuing pending transaction to Espresso pos=0
+INFO [03-29|23:17:37.309] Enqueued pending transaction to Espresso was successful pos=0
+INFO [03-29|23:17:37.366] BoLD protocol not detected on startup, using old staker until upgrade
+INFO [03-29|23:17:37.813] submitting transaction to hotshot for finalization
+INFO [03-29|23:17:39.290] running as validator                     txSender=0x1B4AcaBA13f8B3B858c0796A7d62FC35A5ED3BA5 actingAsWallet=0x1B4AcaBA13f8B3B858c0796A7d62FC35A5ED3BA5 whitelisted=true strategy=4
+INFO [03-29|23:17:39.596] connected to validation server           name=jit-cranelift room=8
+INFO [03-29|23:17:39.600] BlockValidator initialized               current=184884..0baa39 pending=184884..0baa39
+INFO [03-29|23:17:39.600] validator chosen                         WasmModuleRoot=184884..0baa39 chosen=jit-cranelift
+INFO [03-29|23:17:39.600] Starting pre-BOLD staker
+WARN [03-29|23:17:40.081] will wait for resubmission deadline before resubmitting transaction (hash: %s): %w, will retry again TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-="request failed with status 404 and body {\"Availability\":{\"source\":{\"FetchTransaction\":{\"resource\":\"TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-\"}}}}"
+INFO [03-29|23:17:40.416] Data poster transactions confirmed       previousNonce=0 newNonce=4 previousL1Block=<nil> newL1Block=137,229,314
+ERROR[03-29|23:17:40.830] error polling finality, will retry       err="unable to fetch transaction by hash: request failed with status 404 and body {\"Availability\":{\"source\":{\"FetchTransaction\":{\"resource\":\"TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-\"}}}}"
+WARN [03-29|23:17:41.835] resubmission deadline not reached (hash: %s): %w, will retry again TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-="request failed with status 404 and body {\"Availability\":{\"source\":{\"FetchTransaction\":{\"resource\":\"TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-\"}}}}"
+WARN [03-29|23:17:43.592] resubmission deadline not reached (hash: %s): %w, will retry again TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-="request failed with status 404 and body {\"Availability\":{\"source\":{\"FetchTransaction\":{\"resource\":\"TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-\"}}}}"
+WARN [03-29|23:17:45.343] resubmission deadline not reached (hash: %s): %w, will retry again TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-="request failed with status 404 and body {\"Availability\":{\"source\":{\"FetchTransaction\":{\"resource\":\"TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-\"}}}}"
+WARN [03-29|23:17:47.097] resubmission deadline not reached (hash: %s): %w, will retry again TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-="request failed with status 404 and body {\"Availability\":{\"source\":{\"FetchTransaction\":{\"resource\":\"TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-\"}}}}"
+WARN [03-29|23:17:48.885] resubmission deadline not reached (hash: %s): %w, will retry again TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-="request failed with status 404 and body {\"Availability\":{\"source\":{\"FetchTransaction\":{\"resource\":\"TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-\"}}}}"
+WARN [03-29|23:17:50.642] resubmission deadline not reached (hash: %s): %w, will retry again TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-="request failed with status 404 and body {\"Availability\":{\"source\":{\"FetchTransaction\":{\"resource\":\"TX~5uhAHrCS69S3GiLkJ4_Ce2iK-IpDNsrL4NbwD4E_5mD-\"}}}}"
+INFO [03-29|23:18:31.507] Fetching Merkle Root at hotshot          height=2,577,734
+INFO [03-29|23:18:31.998] rpc response                             method=eth_call logId=270 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275546\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:19:22.694] Fetching Merkle Root at hotshot          height=2,577,734
+INFO [03-29|23:19:22.966] rpc response                             method=eth_call logId=462 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275546\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:19:40.452] Enqueuing pending transaction to Espresso pos=1
+INFO [03-29|23:19:40.454] Enqueued pending transaction to Espresso was successful pos=1
+INFO [03-29|23:19:40.459] ExecutionEngine: Added DelayedMessages   pos=1 delayed=1 block-header="&{ParentHash:0xae021d6dae5add75d8a20f2111fe84f218a6710d3fd80ffe07984bd7b8fcd41e UncleHash:0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347 Coinbase:0xcf54067371C08D09923bea643C019090D0f6bABb Root:0xb38dc9f9d076bb68b3ae714a058bc4bc5be7c4e1fe4860f6a364272d0288ff59 TxHash:0x2fec2c7ed5a02024c9814e3bc3d732d300e6bb029a9411c87d64fce1ee1eae79 ReceiptHash:0xa1b93264fc2845802b412272b17a6b9b767910910c3a8d6a77b7ef9fc407c4db Bloom:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0 0 128 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 160 0 0 0 0 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0] Difficulty:+1 Number:+1 GasLimit:1125899906842624 GasUsed:42000 Time:1743289110 Extra:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] MixDigest:0x000000000000000000000000007a37f100000000000000200000000000000000 Nonce:[0 0 0 0 0 0 0 2] BaseFee:+100000000 WithdrawalsHash:<nil> BlobGasUsed:<nil> ExcessBlobGas:<nil> ParentBeaconRoot:<nil>}"
+INFO [03-29|23:19:40.459] Indexed transactions                     blocks=2 txs=3 tail=0 elapsed="508.583µs"
+INFO [03-29|23:19:40.461] Enqueuing pending transaction to Espresso pos=2
+INFO [03-29|23:19:40.462] Enqueued pending transaction to Espresso was successful pos=2
+INFO [03-29|23:19:40.464] ExecutionEngine: Added DelayedMessages   pos=2 delayed=2 block-header="&{ParentHash:0x9396d5ad37b793cbd617c81aad5fa48d8c7782d7c4a753269b5727781b440a86 UncleHash:0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347 Coinbase:0xcf54067371C08D09923bea643C019090D0f6bABb Root:0x333d13c173ae97a918fad5a94516238c28a1725f23fa5390016538d6c503304f TxHash:0x8ca0af05c9f3ca9a2450481ecba32228d6d4ff33ec713404874095e9fc396bb2 ReceiptHash:0x854604420caba01f680f3ac269bcbb77580d4d864a3331fd7401fffe2fecda3d Bloom:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Difficulty:+1 Number:+2 GasLimit:1125899906842624 GasUsed:68137 Time:1743289110 Extra:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] MixDigest:0x000000000000000000000000007a37f100000000000000200000000000000000 Nonce:[0 0 0 0 0 0 0 3] BaseFee:+100000000 WithdrawalsHash:<nil> BlobGasUsed:<nil> ExcessBlobGas:<nil> ParentBeaconRoot:<nil>}"
+INFO [03-29|23:19:40.466] Enqueuing pending transaction to Espresso pos=3
+INFO [03-29|23:19:40.466] Enqueued pending transaction to Espresso was successful pos=3
+INFO [03-29|23:19:40.469] ExecutionEngine: Added DelayedMessages   pos=3 delayed=3 block-header="&{ParentHash:0x69fe03cefe2c184e91d522981d2e1a56617953cfacb2068d1d12023391c97a25 UncleHash:0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347 Coinbase:0xcf54067371C08D09923bea643C019090D0f6bABb Root:0xb0fa865b8e5327c547c61c53c287c98bc83ed31d071e7d8ccdff421535ece626 TxHash:0x308ed6c5fc912b511ee7168a23354d67e0e940253259daec48c015b4b2026669 ReceiptHash:0x91aec080f22ad7b3c1dead4e6c613bdbfda10bdc07669e6b292b330c536dd7fb Bloom:[0 0 0 0 0 0 0 0 0 0 16 0 0 0 128 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 16 0 8 0 0 0 0 0 0 128 0 0 0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 8 0 0 0 0 0 0 2 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 0 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0] Difficulty:+1 Number:+3 GasLimit:1125899906842624 GasUsed:42000 Time:1743289110 Extra:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] MixDigest:0x000000000000000000000000007a37f100000000000000200000000000000000 Nonce:[0 0 0 0 0 0 0 4] BaseFee:+100000000 WithdrawalsHash:<nil> BlobGasUsed:<nil> ExcessBlobGas:<nil> ParentBeaconRoot:<nil>}"
+INFO [03-29|23:19:40.472] Enqueuing pending transaction to Espresso pos=4
+INFO [03-29|23:19:40.473] Enqueued pending transaction to Espresso was successful pos=4
+INFO [03-29|23:19:40.476] ExecutionEngine: Added DelayedMessages   pos=4 delayed=4 block-header="&{ParentHash:0x56bb5f5533c27d63ad42f57c188e9b9f5f8b956acf33a160a4473efc5ce4f199 UncleHash:0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347 Coinbase:0xcf54067371C08D09923bea643C019090D0f6bABb Root:0x99d87af3fa70a64028a38e0231e353856e3c22f3627fde7477a14973ef8cb7f8 TxHash:0x2fb96edb98aeb098c26052a6d0b244e895e20082e328e67d459690495e737f44 ReceiptHash:0x83dee282fb85e2abc73136e1a00cfb4c68e328df694b70af52dbdb116a7be1d4 Bloom:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Difficulty:+1 Number:+4 GasLimit:1125899906842624 GasUsed:119873 Time:1743289110 Extra:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] MixDigest:0x000000000000000000000000007a37f100000000000000200000000000000000 Nonce:[0 0 0 0 0 0 0 5] BaseFee:+100000000 WithdrawalsHash:<nil> BlobGasUsed:<nil> ExcessBlobGas:<nil> ParentBeaconRoot:<nil>}"
+INFO [03-29|23:19:40.479] Enqueuing pending transaction to Espresso pos=5
+INFO [03-29|23:19:40.479] Enqueued pending transaction to Espresso was successful pos=5
+INFO [03-29|23:19:40.481] ExecutionEngine: Added DelayedMessages   pos=5 delayed=5 block-header="&{ParentHash:0x5f91aaa3fa82f950cfa2b6f0afe3893eb2b7383384b2c2c1045d0f0542c2bb09 UncleHash:0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347 Coinbase:0xcf54067371C08D09923bea643C019090D0f6bABb Root:0x2a89a864cab294424825370036bec01588007892692ae79146b50f8d8ff75852 TxHash:0xa9620862519d2a3f6ce5f445ffc2896033e056a1057af152506a3f3df1e2f702 ReceiptHash:0x4c15125f59bf09b4a4efa9c48b3ceea40ba0aef7159c9ae123034eb5cc4c276e Bloom:[0 0 0 0 0 0 0 0 16 0 0 0 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 0 0 16 0 0 0 0 2 0 0 0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 0 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0] Difficulty:+1 Number:+5 GasLimit:1125899906842624 GasUsed:42000 Time:1743289110 Extra:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] MixDigest:0x000000000000000000000000007a37f100000000000000200000000000000000 Nonce:[0 0 0 0 0 0 0 6] BaseFee:+100000000 WithdrawalsHash:<nil> BlobGasUsed:<nil> ExcessBlobGas:<nil> ParentBeaconRoot:<nil>}"
+INFO [03-29|23:19:40.482] Enqueuing pending transaction to Espresso pos=6
+INFO [03-29|23:19:40.483] Enqueued pending transaction to Espresso was successful pos=6
+INFO [03-29|23:19:40.485] ExecutionEngine: Added DelayedMessages   pos=6 delayed=6 block-header="&{ParentHash:0x7049ac042dc28a7113bd9356e61a4e3bd7cb004659ac46994ed2fb5a909b9572 UncleHash:0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347 Coinbase:0xcf54067371C08D09923bea643C019090D0f6bABb Root:0x3cb0db0fd4ae1acf2b2ccb0d6b8cac1015d39a3a37881ece54a234b5985e431c TxHash:0xa8403b5dc565a891c573bc0b71c08ca8f5a806a13bad10e029a55de6eba538d7 ReceiptHash:0xf67c3c3cdb88262636d2937ecc0586f2e7e9b5cf73d0369b3f6b186610f926bd Bloom:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Difficulty:+1 Number:+6 GasLimit:1125899906842624 GasUsed:59915 Time:1743289110 Extra:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] MixDigest:0x000000000000000000000000007a37f100000000000000200000000000000000 Nonce:[0 0 0 0 0 0 0 7] BaseFee:+100000000 WithdrawalsHash:<nil> BlobGasUsed:<nil> ExcessBlobGas:<nil> ParentBeaconRoot:<nil>}"
+INFO [03-29|23:19:40.487] Enqueuing pending transaction to Espresso pos=7
+INFO [03-29|23:19:40.494] Enqueued pending transaction to Espresso was successful pos=7
+INFO [03-29|23:19:40.497] ExecutionEngine: Added DelayedMessages   pos=7 delayed=7 block-header="&{ParentHash:0xa03bcc75554de431aa8d1b00bae7d0c2d936da801f06f0ab69a205555490d7a2 UncleHash:0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347 Coinbase:0xcf54067371C08D09923bea643C019090D0f6bABb Root:0x40dc0d43a9c9be4e5c4e5babaa7efaba25ad653d86c1f38a616dda33a34cf64a TxHash:0x292dc8332757b18fadbbcb162faf9e268dd3bb9014ee80708cc8c28cae79e721 ReceiptHash:0xe10a0f0595d3515465e9efa2a958f82d1c48834de6f6d52225ab4e520fcc1df0 Bloom:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 4 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 0 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0] Difficulty:+1 Number:+7 GasLimit:1125899906842624 GasUsed:42000 Time:1743289110 Extra:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] MixDigest:0x000000000000000000000000007a37f100000000000000200000000000000000 Nonce:[0 0 0 0 0 0 0 8] BaseFee:+100000000 WithdrawalsHash:<nil> BlobGasUsed:<nil> ExcessBlobGas:<nil> ParentBeaconRoot:<nil>}"
+INFO [03-29|23:19:40.502] Enqueuing pending transaction to Espresso pos=8
+INFO [03-29|23:19:40.502] Enqueued pending transaction to Espresso was successful pos=8
+INFO [03-29|23:19:40.506] ExecutionEngine: Added DelayedMessages   pos=8 delayed=8 block-header="&{ParentHash:0x8e72ed0cbf6979fd5a19c8b2149d302ac5ed8f17b242f58037e104a0058f495a UncleHash:0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347 Coinbase:0xcf54067371C08D09923bea643C019090D0f6bABb Root:0x75df5e22c73ec1f4fbce0d677834c464b7b46b3afc62368aa55dd1edca1fac81 TxHash:0xabdf38f05a9662ae581cc12aedd576eb6b026b65548136c05c321a2baafc1a34 ReceiptHash:0x3a71274452f4cba93b05453c60d5a9e2fc12eacdc956983aaf8da0cc43e61ed2 Bloom:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Difficulty:+1 Number:+8 GasLimit:1125899906842624 GasUsed:591701 Time:1743289110 Extra:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] MixDigest:0x000000000000000000000000007a37f100000000000000200000000000000000 Nonce:[0 0 0 0 0 0 0 9] BaseFee:+100000000 WithdrawalsHash:<nil> BlobGasUsed:<nil> ExcessBlobGas:<nil> ParentBeaconRoot:<nil>}"
+INFO [03-29|23:19:40.507] DelayedSequencer: Sequenced              msgnum=8 startpos=1
+INFO [03-29|23:19:40.759] submitting transaction to hotshot for finalization
+INFO [03-29|23:19:40.958] Reading message result remotely.         count=2
+INFO [03-29|23:19:48.541] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:19:48.543] Set current batch segments to waiting for validation
+INFO [03-29|23:19:48.544] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:20:00.104] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:20:00.106] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:20:11.466] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:20:11.469] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:20:13.580] Fetching Merkle Root at hotshot          height=2,577,734
+INFO [03-29|23:20:13.887] rpc response                             method=eth_call logId=589 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275546\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:20:23.025] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:20:23.026] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:20:34.365] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:20:34.368] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:20:45.835] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:20:45.837] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:20:57.226] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:20:57.229] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:21:04.492] Fetching Merkle Root at hotshot          height=2,577,734
+INFO [03-29|23:21:04.763] rpc response                             method=eth_call logId=617 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275546\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:21:08.634] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:21:08.635] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:21:19.968] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:21:19.970] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:21:31.474] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:21:31.476] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+WARN [03-29|23:21:40.141] Large gap between last seen and current block number, skipping check for reverts last=137,229,794 current=137,230,271
+INFO [03-29|23:21:43.076] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:21:43.077] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:21:55.303] Fetching Merkle Root at hotshot          height=2,577,734
+INFO [03-29|23:21:55.729] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:21:55.729] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:21:55.998] rpc response                             method=eth_call logId=658 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275546\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:22:07.167] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:22:07.168] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:22:18.500] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:22:18.501] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:22:30.179] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:22:30.181] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:22:41.542] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:22:41.545] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:22:46.640] Fetching Merkle Root at hotshot          height=2,577,734
+INFO [03-29|23:22:46.974] rpc response                             method=eth_call logId=715 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275546\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:22:53.530] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:22:53.534] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:23:05.343] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:23:05.344] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:23:16.735] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:23:16.737] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:23:28.252] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:23:28.254] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:23:37.525] Fetching Merkle Root at hotshot          height=2,577,734
+INFO [03-29|23:23:37.799] rpc response                             method=eth_call logId=739 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275546\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:23:39.745] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:23:39.746] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+WARN [03-29|23:23:40.399] Large gap between last seen and current block number, skipping check for reverts last=137,230,271 current=137,230,750
+INFO [03-29|23:23:51.178] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:23:51.179] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:24:02.538] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:24:02.540] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:24:14.072] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:24:14.074] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:24:25.695] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:24:25.697] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:24:28.471] Fetching Merkle Root at hotshot          height=2,577,734
+INFO [03-29|23:24:28.748] rpc response                             method=eth_call logId=811 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275546\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:24:37.260] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:24:37.262] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:24:49.112] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:24:49.114] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:24:56.984] Enqueuing pending transaction to Espresso pos=9
+INFO [03-29|23:24:57.128] Enqueued pending transaction to Espresso was successful pos=9
+WARN [03-29|23:24:57.128] failed to fetch the message              pos=9
+ERROR[03-29|23:24:57.129] failed to submit espresso transactions   err="failed to build the hotshot transaction: a large message has exceeded the size limit or failed to get a message from storage"
+INFO [03-29|23:24:57.133] Submitted transaction                    hash=0x2d17546d42734733705e959163fc5b79657cf4ec8dce0bbf5e3c377df95d74e4 from=0xb4beF264785fd51D80347f578E0245fCcdF3C055 nonce=0 recipient=0x3B091626d806CBa133ECDc1559890e59e6fa2567 value=1
+INFO [03-29|23:25:00.632] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:25:00.633] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:25:00.633] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:25:12.179] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:25:12.182] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:25:12.183] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:25:19.293] Fetching Merkle Root at hotshot          height=2,577,734
+INFO [03-29|23:25:19.563] rpc response                             method=eth_call logId=839 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275546\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:25:23.551] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:25:23.552] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:25:23.553] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:25:35.024] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:25:35.026] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:25:35.026] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+WARN [03-29|23:25:40.656] Large gap between last seen and current block number, skipping check for reverts last=137,230,750 current=137,231,229
+INFO [03-29|23:25:46.429] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:25:46.431] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:25:46.432] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:25:47.134] submitting transaction to hotshot for finalization
+INFO [03-29|23:25:58.279] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:25:58.281] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:25:58.282] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:26:09.649] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:26:09.651] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:26:09.651] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:26:10.112] Fetching Merkle Root at hotshot          height=2,577,734
+INFO [03-29|23:26:10.808] rpc response                             method=eth_call logId=882 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275546\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:26:21.015] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:26:21.017] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:26:21.017] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:26:32.460] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:26:32.464] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:26:32.464] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:26:43.849] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:26:43.851] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:26:43.852] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:26:56.113] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:26:56.115] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:26:56.116] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:27:01.438] Fetching Merkle Root at hotshot          height=2,577,734
+INFO [03-29|23:27:07.806] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:27:07.808] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:27:07.810] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:27:12.457] Fetching Merkle Root at hotshot          height=2,577,780
+INFO [03-29|23:27:14.694] Fetching Merkle Root at hotshot          height=2,577,924
+INFO [03-29|23:27:15.003] rpc response                             method=eth_call logId=936 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275604\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:27:19.628] Current batch is waiting for espresso validation, we won't add more messages
+INFO [03-29|23:27:19.629] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T22:58:30+0000 "first useful msg timestamp"=1,743,289,110
+INFO [03-29|23:27:19.629] Batch validation status:                 hasBatchBeenValidated=true  b.building.msgCount=9 b.building.startMsgCount=1
+INFO [03-29|23:27:23.247] DataPoster sent transaction              nonce=0 hash=11a500..c7c309 feeCap=1,500,000,000 tipCap=50,000,000 blobFeeCap=<nil> gas=201,735
+INFO [03-29|23:27:23.248] BatchPoster: batch sent                  sequenceNumber=1 from=1 to=9 prevDelayed=1 currentDelayed=9 totalSegments=8 numBlobs=0
+INFO [03-29|23:27:24.352] Data poster transactions confirmed       previousNonce=0 newNonce=1 previousL1Block=137,231,629 newL1Block=137,231,642
+WARN [03-29|23:27:40.964] Large gap between last seen and current block number, skipping check for reverts last=137,231,229 current=137,231,709
+INFO [03-29|23:27:47.076] InboxTracker                             sequencerBatchCount=2 messageCount=9 l1Block=137,231,639 l1Timestamp=2025-03-29T22:58:30+0000
+INFO [03-29|23:27:48.002] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:27:48.002] Set current batch segments to waiting for validation
+INFO [03-29|23:27:48.003] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:27:48.035] Reading message result remotely.         count=3
+INFO [03-29|23:27:48.037] Reading message result remotely.         count=4
+INFO [03-29|23:27:48.038] Reading message result remotely.         count=5
+INFO [03-29|23:27:48.039] Reading message result remotely.         count=6
+INFO [03-29|23:27:48.040] Reading message result remotely.         count=7
+INFO [03-29|23:27:48.040] Reading message result remotely.         count=8
+INFO [03-29|23:27:48.041] Reading message result remotely.         count=9
+INFO [03-29|23:27:48.041] Reading message result remotely.         count=10
+INFO [03-29|23:27:53.478] validated execution                      messageCount=9 globalstate="BlockHash: 0x39e5451e88c2ec2cf384a732c13775ee0c04d84e4b03c8e0bc59350563f546a5, SendRoot: 0x0000000000000000000000000000000000000000000000000000000000000000, Batch: 2, PosInBatch: 0" WasmRoots=[0x184884e1eb9fefdc158f6c8ac912bb183bf3cf83f0090317e0bc4ac5860baa39]
+INFO [03-29|23:27:59.361] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:27:59.362] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:28:05.584] Fetching Merkle Root at hotshot          height=2,577,924
+INFO [03-29|23:28:05.863] rpc response                             method=eth_call logId=1006 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275604\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:28:10.817] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:28:10.818] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:28:22.153] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:28:22.154] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:28:24.157] creating node                            hash=efd0ea..c5d359 lastNode=0 parentNode=0
+INFO [03-29|23:28:25.919] staking to execute transactions
+INFO [03-29|23:28:29.542] DataPoster sent transaction              nonce=4 hash=7cffb7..9eb2bb feeCap=1,500,000,000 tipCap=50,000,000 blobFeeCap=<nil> gas=479,531
+INFO [03-29|23:28:33.576] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:28:33.578] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:28:44.928] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:28:44.929] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:28:56.383] Fetching Merkle Root at hotshot          height=2,577,924
+INFO [03-29|23:28:56.418] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:28:56.418] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:28:56.693] rpc response                             method=eth_call logId=1085 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275604\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:29:07.966] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:29:07.967] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:29:19.759] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:29:19.760] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:29:31.085] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:29:31.087] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+WARN [03-29|23:29:41.491] Large gap between last seen and current block number, skipping check for reverts last=137,231,709 current=137,232,185
+INFO [03-29|23:29:42.059] successfully executed staker transaction hash=7cffb7..9eb2bb
+INFO [03-29|23:29:42.828] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:29:42.828] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:29:43.176] Data poster transactions confirmed       previousNonce=4 newNonce=5 previousL1Block=137,231,893 newL1Block=137,232,192
+INFO [03-29|23:29:47.212] Fetching Merkle Root at hotshot          height=2,577,924
+INFO [03-29|23:29:47.532] rpc response                             method=eth_call logId=1139 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275604\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:29:49.683] confirming node                          node=1
+INFO [03-29|23:29:54.340] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:29:54.341] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:29:55.060] DataPoster sent transaction              nonce=5 hash=eba9c2..57aea1 feeCap=1,500,000,000 tipCap=50,000,000 blobFeeCap=<nil> gas=163,980
+INFO [03-29|23:30:05.914] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:30:05.916] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:30:17.343] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:30:17.346] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:30:28.698] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:30:28.699] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:30:38.223] Fetching Merkle Root at hotshot          height=2,577,924
+INFO [03-29|23:30:38.531] rpc response                             method=eth_call logId=1188 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275604\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:30:40.181] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:30:40.182] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:30:51.702] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:30:51.704] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:31:03.349] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:31:03.351] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:31:14.677] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:31:14.680] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:31:26.101] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:31:26.102] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:31:29.216] Fetching Merkle Root at hotshot          height=2,577,924
+INFO [03-29|23:31:29.521] rpc response                             method=eth_call logId=1221 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275604\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:31:37.913] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:31:37.915] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+WARN [03-29|23:31:42.064] Large gap between last seen and current block number, skipping check for reverts last=137,232,185 current=137,232,662
+INFO [03-29|23:31:42.689] successfully executed staker transaction hash=eba9c2..57aea1
+INFO [03-29|23:31:43.813] Data poster transactions confirmed       previousNonce=5 newNonce=6 previousL1Block=137,232,231 newL1Block=137,232,669
+INFO [03-29|23:31:49.252] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:31:49.252] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:32:00.799] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:32:00.812] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:32:12.160] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:32:12.162] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:32:20.058] Fetching Merkle Root at hotshot          height=2,577,924
+INFO [03-29|23:32:20.385] rpc response                             method=eth_call logId=1295 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275604\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:32:23.522] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:32:23.523] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:32:36.278] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:32:36.283] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:32:47.820] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:32:47.823] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:32:59.203] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:32:59.205] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:33:11.122] Fetching Merkle Root at hotshot          height=2,577,924
+INFO [03-29|23:33:11.162] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:33:11.163] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:33:11.418] rpc response                             method=eth_call logId=1337 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275604\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:33:22.779] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:33:22.782] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:33:34.350] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:33:34.352] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+WARN [03-29|23:33:42.337] Large gap between last seen and current block number, skipping check for reverts last=137,232,662 current=137,233,140
+INFO [03-29|23:33:45.781] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:33:45.782] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:33:57.274] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:33:57.276] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:34:02.000] Fetching Merkle Root at hotshot          height=2,577,924
+INFO [03-29|23:34:02.367] rpc response                             method=eth_call logId=1408 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275604\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:34:08.752] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:34:08.753] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:34:20.227] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:34:20.229] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:34:31.900] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:34:31.903] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:34:43.369] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:34:43.372] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:34:53.097] Fetching Merkle Root at hotshot          height=2,577,924
+INFO [03-29|23:34:53.386] rpc response                             method=eth_call logId=1436 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275604\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:34:54.901] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:34:54.902] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:35:07.085] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:35:07.088] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:35:18.459] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:35:18.462] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:35:31.304] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:35:31.306] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+WARN [03-29|23:35:42.600] Large gap between last seen and current block number, skipping check for reverts last=137,233,140 current=137,233,617
+INFO [03-29|23:35:43.679] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:35:43.681] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:35:43.959] Fetching Merkle Root at hotshot          height=2,577,924
+INFO [03-29|23:35:44.295] rpc response                             method=eth_call logId=1473 err="execution reverted"            result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000275604\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+INFO [03-29|23:35:55.126] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:35:55.128] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:36:06.575] attempting to post batch due to max delay firstUsefulMsgTime=2025-03-29T23:24:56+0000 "first useful msg timestamp"=1,743,290,696
+INFO [03-29|23:36:06.578] Batch validation status:                 hasBatchBeenValidated=false b.building.msgCount=10 b.building.startMsgCount=9
+INFO [03-29|23:36:20.120] shutting down because of sigint
+INFO [03-29|23:36:20.122] HTTP server stopped                      endpoint=[::]:8547
+INFO [03-29|23:36:20.122] HTTP server stopped                      endpoint=[::]:8548
+INFO [03-29|23:36:20.122] delayed sequencer: context done          err="context canceled"
+INFO [03-29|23:36:20.123] rpc response                             method=eth_blockNumber logId=1527 err="Post \"https://arb-sepolia.g.alchemy.com/v2/NLWT_oEEH-U45ytXB40iy-zT5Yik3tla\": context canceled" result="\"0x0\"" attempt=0 args=[]
+INFO [03-29|23:36:20.123] Persisted trie from memory database      nodes=0  size=0.00B    time="36.792µs"  gcnodes=0 gcsize=0.00B gctime="7.752µs" livenodes=513 livesize=71.21KiB
+INFO [03-29|23:36:20.125] Writing cached state to disk             block=9 hash=fb2dbd..b55cdc root=b8daac..084129
+INFO [03-29|23:36:20.128] Persisted trie from memory database      nodes=418 size=49.52KiB time=3.094292ms  gcnodes=0 gcsize=0.00B gctime="291.251µs" livenodes=317 livesize=51.42KiB
+INFO [03-29|23:36:20.128] Writing cached state to disk             block=8 hash=39e545..f546a5 root=75df5e..1fac81
+INFO [03-29|23:36:20.129] Persisted trie from memory database      nodes=218 size=29.21KiB time="798.166µs" gcnodes=0 gcsize=0.00B gctime=0s          livenodes=99  livesize=22.21KiB
+INFO [03-29|23:36:20.129] Writing cached state to disk             block=1 hash=9396d5..440a86 root=b38dc9..88ff59
+INFO [03-29|23:36:20.130] Persisted trie from memory database      nodes=17  size=3.86KiB  time="225.125µs" gcnodes=0 gcsize=0.00B gctime=0s          livenodes=82  livesize=18.35KiB
+INFO [03-29|23:36:20.130] Writing snapshot state to disk           root=831478..7e07e0
+INFO [03-29|23:36:20.130] Persisted trie from memory database      nodes=0   size=0.00B    time="1.542µs"   gcnodes=0 gcsize=0.00B gctime=0s          livenodes=82  livesize=18.35KiB
+INFO [03-29|23:36:20.130] Blockchain stopped
