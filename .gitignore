@@ -9,3 +9,6 @@ database/jwtsecret
 database/jwtpublickey
 database/local/nodekey
 
+caff-node/database/local/nodekey
+caff-node/database/jwtsecret
+
