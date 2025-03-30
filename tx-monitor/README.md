@@ -13,7 +13,7 @@ This is a Go application that monitors an espresso integrated rollup for specifi
 ## Requirements
 
 - Go 1.23.2 or higher
-- go-ethereum submodule
+- Properly initialized go-ethereum submodule (see Getting Started)
 - Caff node (local or remote)
 
 ## Getting Started
@@ -31,11 +31,22 @@ This is a Go application that monitors an espresso integrated rollup for specifi
    git submodule update --init --recursive
    ```
 
-2. **Install Dependencies**
+2. **Verify Submodule Setup**
+
+   Ensure the go-ethereum submodule is properly initialized:
+
+   ```bash
+   git submodule status
+   ```
+
+   You should see a hash followed by "go-ethereum" in the output.
+
+3. **Install Dependencies**
 
    ```bash
    go mod tidy
    ```
+
 3. **Configure the Application**
 
    Edit the configuration file at `config/config.json` to set your Caff node URL, polling interval, and transaction filtering criteria.

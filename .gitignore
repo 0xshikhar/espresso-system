@@ -1,4 +1,3 @@
-
 tx-generator/node_modules/
 *.lock
 pnpm-lock.yaml
@@ -26,3 +25,11 @@ go.sum
 
 # OS specific
 .DS_Store
+
+tx-monitor/go-ethereum/tests
+tx-monitor/go-ethereum/build
+
+# Add this line to ignore the go-ethereum directory content
+/go-ethereum/
+# But keep the submodule reference
+!/go-ethereum/.git
