@@ -1,0 +1,27 @@
+{
+  "docker": {
+    "volume_permissions": {
+      "fix_command": "sudo chown -R 1000:1000 ./database",
+      "explanation": "Change ownership of the database directory to match the container's user (UID 1000)"
+    },
+    "container_restart": {
+      "command": "docker-compose down && docker-compose up -d",
+      "explanation": "Restart containers after fixing permissions"
+    }
+  },
+  "aws": {
+    "security_verification": [
+      "Verify security group inbound rules include TCP 8547-8549 from 0.0.0.0/0",
+      "Check if there are any Network ACLs blocking traffic",
+      "Confirm the EC2 instance isn't in a private subnet"
+    ],
+    "ec2_firewall": {
+      "check_command": "sudo iptables -L",
+      "explanation": "Check if the EC2 instance has any local firewall rules"
+    }
+  },
+  "testing": {
+    "local_test": "curl http://localhost:8547 -v",
+    "explanation": "Test connectivity from inside the EC2 instance"
+  }
+}

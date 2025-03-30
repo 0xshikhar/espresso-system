@@ -394,3 +394,369 @@ INFO [03-29|23:36:20.130] Persisted trie from memory database      nodes=17  siz
 INFO [03-29|23:36:20.130] Writing snapshot state to disk           root=831478..7e07e0
 INFO [03-29|23:36:20.130] Persisted trie from memory database      nodes=0   size=0.00B    time="1.542µs"   gcnodes=0 gcsize=0.00B gctime=0s          livenodes=82  livesize=18.35KiB
 INFO [03-29|23:36:20.130] Blockchain stopped
+INFO [04-01|06:05:16.562] Running Arbitrum nitro node              revision=development vcs.time=development
+INFO [04-01|06:05:18.848] connected to l1 chain                    l1url=https://arb-sepolia.g.alchemy.com/v2/NLWT_oEEH-U45ytXB40iy-zT5Yik3tla l1chainid=421,614
+INFO [04-01|06:05:19.605] Using leveldb as the backing database
+INFO [04-01|06:05:19.605] Allocated cache and file handles         database=/home/user/.arbitrum/local/nitro/l2chaindata cache=16.00MiB handles=16 readonly=true
+INFO [04-01|06:05:19.614] Using LevelDB as the backing database
+INFO [04-01|06:05:19.620] Opened ancient database                  database=/home/user/.arbitrum/local/nitro/l2chaindata/ancient/chain readonly=true
+INFO [04-01|06:05:19.623] Using leveldb as the backing database
+INFO [04-01|06:05:19.623] Allocated cache and file handles         database=/home/user/.arbitrum/local/nitro/l2chaindata cache=2.00GiB handles=512
+INFO [04-01|06:05:19.638] Using LevelDB as the backing database
+INFO [04-01|06:05:19.642] Opened ancient database                  database=/home/user/.arbitrum/local/nitro/l2chaindata/ancient/chain readonly=false
+INFO [04-01|06:05:19.644] Using leveldb as the backing database
+INFO [04-01|06:05:19.644] Allocated cache and file handles         database=/home/user/.arbitrum/local/nitro/wasm cache=2.00GiB handles=512
+INFO [04-01|06:05:19.761] Using LevelDB as the backing database
+INFO [04-01|06:05:19.761] State scheme set by user                 scheme=hash
+INFO [04-01|06:05:19.762] 
+INFO [04-01|06:05:19.762] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [04-01|06:05:19.762] Chain ID:  336699 (unknown)
+INFO [04-01|06:05:19.762] Consensus: Clique (proof-of-authority)
+INFO [04-01|06:05:19.762] 
+INFO [04-01|06:05:19.762] Pre-Merge hard forks (block based):
+INFO [04-01|06:05:19.762]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [04-01|06:05:19.762]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [04-01|06:05:19.762]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [04-01|06:05:19.763]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [04-01|06:05:19.763]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [04-01|06:05:19.763]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [04-01|06:05:19.763]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [04-01|06:05:19.763]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [04-01|06:05:19.763]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)
+INFO [04-01|06:05:19.763]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [04-01|06:05:19.763]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [04-01|06:05:19.763] 
+INFO [04-01|06:05:19.764] The Merge is not yet available for this network!
+INFO [04-01|06:05:19.764]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [04-01|06:05:19.764] 
+INFO [04-01|06:05:19.764] Post-Merge hard forks (timestamp based):
+INFO [04-01|06:05:19.764] 
+INFO [04-01|06:05:19.764] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [04-01|06:05:19.765] 
+INFO [04-01|06:05:19.766] Loaded most recent local block           number=9 hash=fb2dbd..b55cdc td=10 age=2d6h40m
+INFO [04-01|06:05:19.767] Initialized transaction indexer          range="last 126230400 blocks"
+INFO [04-01|06:05:19.769] Using leveldb as the backing database
+INFO [04-01|06:05:19.769] Allocated cache and file handles         database=/home/user/.arbitrum/local/nitro/arbitrumdata cache=16.00MiB handles=16
+INFO [04-01|06:05:19.776] Using LevelDB as the backing database
+WARN [04-01|06:05:21.109] Cgroups V1 or V2 is unsupported, memory-free-limit feature inside block-validator is disabled
+INFO [04-01|06:05:21.110] Disabling data poster storage, as parent chain appears to be an Arbitrum chain without a mempool
+INFO [04-01|06:05:21.827] Disabling data poster storage, as parent chain appears to be an Arbitrum chain without a mempool
+INFO [04-01|06:05:22.540] Starting peer-to-peer node               instance=nitro/vdevelopment/linux-arm64/go1.23.1
+WARN [04-01|06:05:22.541] P2P server will be useless, neither dialing nor listening
+INFO [04-01|06:05:22.558] HTTP server started                      endpoint=[::]:8547 auth=false prefix= cors= vhosts=
+INFO [04-01|06:05:22.559] WebSocket enabled                        url=ws://[::]:8548
+INFO [04-01|06:05:22.559] New local node record                    seq=1,743,290,254,514 id=2b4a81e02714ab74 ip=127.0.0.1 udp=0 tcp=0
+INFO [04-01|06:05:22.559] Started P2P networking                   self=enode://0b843eff1e8624645ae048b980a3519474c41427f10f86f368ec934faefd9cb23419b08fc99cef31ed7f7990548e809a3a383c5421bbb53b70ea640718ea393e@127.0.0.1:0
+INFO [04-01|06:05:22.952] BoLD protocol not detected on startup, using old staker until upgrade
+INFO [04-01|06:05:24.796] Data poster transactions confirmed       previousNonce=0 newNonce=4 previousL1Block=<nil> newL1Block=138,008,064
+INFO [04-01|06:05:26.331] running as validator                     txSender=0x1B4AcaBA13f8B3B858c0796A7d62FC35A5ED3BA5 actingAsWallet=0x1B4AcaBA13f8B3B858c0796A7d62FC35A5ED3BA5 whitelisted=true strategy=4
+INFO [04-01|06:05:26.664] Fetching Merkle Root at hotshot          height=2,577,924
+INFO [04-01|06:05:28.184] connected to validation server           name=jit-cranelift room=10
+INFO [04-01|06:05:28.185] BlockValidator initialized               current=184884..0baa39 pending=184884..0baa39
+INFO [04-01|06:05:28.185] validator chosen                         WasmModuleRoot=184884..0baa39 chosen=jit-cranelift
+INFO [04-01|06:05:28.185] Starting pre-BOLD staker
+INFO [04-01|06:05:28.186] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:28.186] validated execution                      messageCount=-1 globalstate="BlockHash: 0x35e51729ffcec0cb262a99abc9d5170e25960f00e084ef0d5c72093db5f68302, SendRoot: 0x0000000000000000000000000000000000000000000000000000000000000000, Batch: 4, PosInBatch: 0" WasmRoots=[]
+INFO [04-01|06:05:29.186] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:29.200] Data poster transactions confirmed       previousNonce=0 newNonce=10 previousL1Block=<nil> newL1Block=138,008,082
+INFO [04-01|06:05:29.507] latest assertion not yet in our node     stakerAddress=0x1B4AcaBA13f8B3B858c0796A7d62FC35A5ED3BA5 assertion=3 state="BlockHash: 0x35e51729ffcec0cb262a99abc9d5170e25960f00e084ef0d5c72093db5f68302, SendRoot: 0x0000000000000000000000000000000000000000000000000000000000000000, Batch: 4, PosInBatch: 0"
+INFO [04-01|06:05:30.192] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:31.103] latest assertion not yet in our node     stakerAddress=0x0000000000000000000000000000000000000000 assertion=3 state="BlockHash: 0x35e51729ffcec0cb262a99abc9d5170e25960f00e084ef0d5c72093db5f68302, SendRoot: 0x0000000000000000000000000000000000000000000000000000000000000000, Batch: 4, PosInBatch: 0"
+INFO [04-01|06:05:31.193] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:32.196] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:33.197] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:34.199] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:35.205] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:36.207] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:37.209] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:38.214] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:39.215] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:40.217] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:41.222] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:41.657] catching up to chain batches             localBatches=2 target=4
+INFO [04-01|06:05:42.223] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:43.225] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:44.226] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:45.228] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:46.231] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:47.237] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:48.240] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:49.243] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:50.245] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:51.247] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:52.247] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:53.249] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:54.250] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:55.251] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:56.253] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:57.255] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:58.257] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:05:59.259] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:00.261] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:01.263] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:02.264] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:03.265] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:04.268] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:05.269] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:06.270] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:07.272] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:08.274] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:09.275] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:10.280] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:11.281] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:12.283] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:13.287] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:14.288] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:15.290] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:16.291] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:17.294] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:18.296] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:19.297] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:20.299] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:21.303] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:22.305] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:23.308] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:24.310] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:24.729] InboxTracker                             sequencerBatchCount=4 messageCount=12 l1Block=137,322,368 l1Timestamp=2025-03-29T23:27:23+0000
+INFO [04-01|06:06:24.730] Enqueuing pending transaction to Espresso pos=10
+INFO [04-01|06:06:25.311] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:26.312] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:27.318] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:28.323] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+WARN [04-01|06:06:28.422] error posting batch                      err="error getting latest batch metadata: accumulator not found: no metadata for batch 3"
+INFO [04-01|06:06:29.329] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:30.330] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:31.332] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:32.334] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:33.336] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:34.336] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:35.341] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:36.343] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:37.344] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:38.346] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:39.349] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:40.353] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+INFO [04-01|06:06:41.355] validator catching up to last valid      lastValid.Batch=4 lastValid.PosInBatch=0 batchCount=2 batchMsgCount=9 processedMsgCount=10
+WARN [04-01|06:06:41.494] error posting batch                      err="error getting latest batch metadata: accumulator not found: no metadata for batch 3"
+INFO [04-01|06:06:41.539] Enqueued pending transaction to Espresso was successful pos=10
+INFO [04-01|06:06:41.542] Enqueuing pending transaction to Espresso pos=11
+INFO [04-01|06:06:41.544] Enqueued pending transaction to Espresso was successful pos=11
+INFO [04-01|06:06:41.552] created block                            l2Block=10 l2BlockHash=dd8ec2..088be2
+INFO [04-01|06:06:42.540] submitting transaction to hotshot for finalization
+INFO [04-01|06:06:42.553] created block                            l2Block=11 l2BlockHash=35e517..f68302
+ERROR[04-01|06:06:43.745] error polling finality, will retry       err="unable to fetch transaction by hash: request failed with status 404 and body {\"Availability\":{\"source\":{\"FetchTransaction\":{\"resource\":\"TX~_0aIRmi5HYBfJwRfhXGnoF6D6xQmrl126f2zFZ3scT7i\"}}}}"
+WARN [04-01|06:06:44.667] will wait for resubmission deadline before resubmitting transaction (hash: %s): %w, will retry again TX~_0aIRmi5HYBfJwRfhXGnoF6D6xQmrl126f2zFZ3scT7i="request failed with status 404 and body {\"Availability\":{\"source\":{\"FetchTransaction\":{\"resource\":\"TX~_0aIRmi5HYBfJwRfhXGnoF6D6xQmrl126f2zFZ3scT7i\"}}}}"
+WARN [04-01|06:06:46.501] resubmission deadline not reached (hash: %s): %w, will retry again TX~_0aIRmi5HYBfJwRfhXGnoF6D6xQmrl126f2zFZ3scT7i="request failed with status 404 and body {\"Availability\":{\"source\":{\"FetchTransaction\":{\"resource\":\"TX~_0aIRmi5HYBfJwRfhXGnoF6D6xQmrl126f2zFZ3scT7i\"}}}}"
+WARN [04-01|06:06:48.663] resubmission deadline not reached (hash: %s): %w, will retry again TX~_0aIRmi5HYBfJwRfhXGnoF6D6xQmrl126f2zFZ3scT7i="request failed with status 404 and body {\"Availability\":{\"source\":{\"FetchTransaction\":{\"resource\":\"TX~_0aIRmi5HYBfJwRfhXGnoF6D6xQmrl126f2zFZ3scT7i\"}}}}"
+INFO [04-01|06:07:29.214] Enqueuing pending transaction to Espresso pos=12
+INFO [04-01|06:07:29.216] Enqueued pending transaction to Espresso was successful pos=12
+INFO [04-01|06:07:29.218] ExecutionEngine: Added DelayedMessages   pos=12 delayed=11 block-header="&{ParentHash:0x35e51729ffcec0cb262a99abc9d5170e25960f00e084ef0d5c72093db5f68302 UncleHash:0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347 Coinbase:0x3B091626d806CBa133ECDc1559890e59e6fa2567 Root:0x1857d8b511fa119bb9a2029056456de6f4d7bc3b3db5658f73bd885d6a5384a6 TxHash:0x5a7e196f26b6203a4539b04c6b49468115c38e0776d6c7c5634af1326da2f5ab ReceiptHash:0xf08cf5553e1dae52e3df19b356b8320e17c39fb055f635739c31052db5c3e45e Bloom:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Difficulty:+1 Number:+12 GasLimit:1125899906842624 GasUsed:0 Time:1743312834 Extra:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] MixDigest:0x000000000000000000000000007a3f7200000000000000200000000000000000 Nonce:[0 0 0 0 0 0 0 12] BaseFee:+100000000 WithdrawalsHash:<nil> BlobGasUsed:<nil> ExcessBlobGas:<nil> ParentBeaconRoot:<nil>}"
+INFO [04-01|06:07:29.221] Enqueuing pending transaction to Espresso pos=13
+INFO [04-01|06:07:29.221] Enqueued pending transaction to Espresso was successful pos=13
+INFO [04-01|06:07:29.222] ExecutionEngine: Added DelayedMessages   pos=13 delayed=12 block-header="&{ParentHash:0x16b770d1985b71aaba7b81d6486d83d8f93d57d1f67470225885b14e14051ab6 UncleHash:0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347 Coinbase:0x3B091626d806CBa133ECDc1559890e59e6fa2567 Root:0x6cc4dda59b67ecdafe6d51d8fe28550dd23c230ec554119bea89dfc21f37dc73 TxHash:0x835a085ab8b6ab40fdfecbc30eea2a6a66bdcebaf52ccc93660c6081155f6527 ReceiptHash:0xf08cf5553e1dae52e3df19b356b8320e17c39fb055f635739c31052db5c3e45e Bloom:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Difficulty:+1 Number:+13 GasLimit:1125899906842624 GasUsed:0 Time:1743313628 Extra:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] MixDigest:0x000000000000000000000000007a3fb000000000000000200000000000000000 Nonce:[0 0 0 0 0 0 0 13] BaseFee:+100000000 WithdrawalsHash:<nil> BlobGasUsed:<nil> ExcessBlobGas:<nil> ParentBeaconRoot:<nil>}"
+INFO [04-01|06:07:29.222] DelayedSequencer: Sequenced              msgnum=2 startpos=11
+INFO [04-01|06:07:29.393] submitting transaction to hotshot for finalization
+INFO [04-01|06:07:29.464] Reading message result remotely.         count=13
+INFO [04-01|06:07:34.070] Pruned message results:                  "first pruned key"=1 "last pruned key"=7
+INFO [04-01|06:07:34.071] Pruned expected block hashes:            "first pruned key"=1 "last pruned key"=7
+INFO [04-01|06:07:34.071] Pruned last batch messages:              "first pruned key"=1 "last pruned key"=7
+INFO [04-01|06:07:34.072] Pruned last batch delayed messages:      "first pruned key"=1 "last pruned key"=6
+INFO [04-01|06:07:34.536] Fetching Merkle Root at hotshot          height=2,635,107
+INFO [04-01|06:07:34.870] rpc response                             method=eth_call logId=352 err="execution reverted" result="\"0x\"" attempt=0 args="[{\"from\":\"0x0000000000000000000000000000000000000000\",\"input\":\"0x8584d23f0000000000000000000000000000000000000000000000000000000000283563\",\"to\":\"0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098\"}, \"latest\"]" errorData="\"0x615a9264\""
+WARN [04-01|06:07:55.938] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|06:08:06.275] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+INFO [04-01|06:08:07.016] shutting down because of sigint
+INFO [04-01|06:08:07.016] HTTP server stopped                      endpoint=[::]:8547
+INFO [04-01|06:08:07.016] HTTP server stopped                      endpoint=[::]:8548
+INFO [04-01|06:08:07.016] delayed sequencer: context done          err="context canceled"
+WARN [04-01|06:08:07.017] resubmission deadline not reached (hash: %s): %w, will retry again TX~_0aIRmi5HYBfJwRfhXGnoF6D6xQmrl126f2zFZ3scT7i="Get \"https://query.decaf.testnet.espresso.network/v0/availability/transaction/hash/TX~_0aIRmi5HYBfJwRfhXGnoF6D6xQmrl126f2zFZ3scT7i\": context canceled"
+INFO [04-01|06:08:07.018] Writing cached state to disk             block=13 hash=5ee256..b70467 root=6cc4dd..37dc73
+INFO [04-01|06:08:07.019] Persisted trie from memory database      nodes=382 size=45.67KiB time="735.125µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=189 livesize=31.51KiB
+INFO [04-01|06:08:07.019] Writing cached state to disk             block=12 hash=16b770..051ab6 root=1857d8..5384a6
+INFO [04-01|06:08:07.019] Persisted trie from memory database      nodes=129 size=19.61KiB time="268.583µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=60  livesize=11.91KiB
+INFO [04-01|06:08:07.019] Writing cached state to disk             block=10 hash=dd8ec2..088be2 root=df47e2..0d01ea
+INFO [04-01|06:08:07.019] Persisted trie from memory database      nodes=2   size=677.00B  time="69.542µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=58  livesize=11.25KiB
+INFO [04-01|06:08:07.019] Writing snapshot state to disk           root=831478..7e07e0
+INFO [04-01|06:08:07.019] Persisted trie from memory database      nodes=0   size=0.00B    time="1.167µs"   gcnodes=0 gcsize=0.00B gctime=0s livenodes=58  livesize=11.25KiB
+INFO [04-01|06:08:07.019] Blockchain stopped
+INFO [04-01|07:51:09.281] Running Arbitrum nitro node              revision=development vcs.time=development
+INFO [04-01|07:51:10.070] connected to l1 chain                    l1url=https://arb-sepolia.g.alchemy.com/v2/NLWT_oEEH-U45ytXB40iy-zT5Yik3tla l1chainid=421,614
+INFO [04-01|07:51:11.105] Using leveldb as the backing database
+INFO [04-01|07:51:11.105] Allocated cache and file handles         database=/home/user/.arbitrum/local/nitro/l2chaindata cache=16.00MiB handles=16 readonly=true
+INFO [04-01|07:51:11.111] Using LevelDB as the backing database
+INFO [04-01|07:51:11.117] Opened ancient database                  database=/home/user/.arbitrum/local/nitro/l2chaindata/ancient/chain readonly=true
+INFO [04-01|07:51:11.121] Using leveldb as the backing database
+INFO [04-01|07:51:11.121] Allocated cache and file handles         database=/home/user/.arbitrum/local/nitro/l2chaindata cache=2.00GiB handles=512
+INFO [04-01|07:51:11.133] Using LevelDB as the backing database
+INFO [04-01|07:51:11.135] Opened ancient database                  database=/home/user/.arbitrum/local/nitro/l2chaindata/ancient/chain readonly=false
+INFO [04-01|07:51:11.138] Using leveldb as the backing database
+INFO [04-01|07:51:11.139] Allocated cache and file handles         database=/home/user/.arbitrum/local/nitro/wasm cache=2.00GiB handles=512
+INFO [04-01|07:51:11.247] Using LevelDB as the backing database
+INFO [04-01|07:51:11.248] State scheme set by user                 scheme=hash
+INFO [04-01|07:51:11.250] 
+INFO [04-01|07:51:11.250] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [04-01|07:51:11.250] Chain ID:  336699 (unknown)
+INFO [04-01|07:51:11.250] Consensus: Clique (proof-of-authority)
+INFO [04-01|07:51:11.250] 
+INFO [04-01|07:51:11.251] Pre-Merge hard forks (block based):
+INFO [04-01|07:51:11.251]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [04-01|07:51:11.251]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [04-01|07:51:11.251]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [04-01|07:51:11.251]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [04-01|07:51:11.251]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [04-01|07:51:11.252]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [04-01|07:51:11.252]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [04-01|07:51:11.252]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [04-01|07:51:11.252]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)
+INFO [04-01|07:51:11.252]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [04-01|07:51:11.252]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [04-01|07:51:11.253] 
+INFO [04-01|07:51:11.253] The Merge is not yet available for this network!
+INFO [04-01|07:51:11.253]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [04-01|07:51:11.254] 
+INFO [04-01|07:51:11.254] Post-Merge hard forks (timestamp based):
+INFO [04-01|07:51:11.254] 
+INFO [04-01|07:51:11.255] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [04-01|07:51:11.255] 
+INFO [04-01|07:51:11.256] Loaded most recent local block           number=13 hash=5ee256..b70467 td=14 age=2d2h4m
+INFO [04-01|07:51:11.257] Initialized transaction indexer          range="last 126230400 blocks"
+INFO [04-01|07:51:11.259] Using leveldb as the backing database
+INFO [04-01|07:51:11.259] Allocated cache and file handles         database=/home/user/.arbitrum/local/nitro/arbitrumdata cache=16.00MiB handles=16
+INFO [04-01|07:51:11.263] Using LevelDB as the backing database
+WARN [04-01|07:51:11.878] Cgroups V1 or V2 is unsupported, memory-free-limit feature inside block-validator is disabled
+INFO [04-01|07:51:11.878] Disabling data poster storage, as parent chain appears to be an Arbitrum chain without a mempool
+INFO [04-01|07:51:12.631] Disabling data poster storage, as parent chain appears to be an Arbitrum chain without a mempool
+INFO [04-01|07:51:13.656] Starting peer-to-peer node               instance=nitro/vdevelopment/linux-arm64/go1.23.1
+WARN [04-01|07:51:13.657] P2P server will be useless, neither dialing nor listening
+INFO [04-01|07:51:13.673] HTTP server started                      endpoint=[::]:8547 auth=false prefix= cors= vhosts=
+INFO [04-01|07:51:13.673] WebSocket enabled                        url=ws://[::]:8548
+INFO [04-01|07:51:13.675] New local node record                    seq=1,743,290,254,515 id=2b4a81e02714ab74 ip=127.0.0.1 udp=0 tcp=0
+INFO [04-01|07:51:13.675] Started P2P networking                   self=enode://0b843eff1e8624645ae048b980a3519474c41427f10f86f368ec934faefd9cb23419b08fc99cef31ed7f7990548e809a3a383c5421bbb53b70ea640718ea393e@127.0.0.1:0
+INFO [04-01|07:51:13.958] BoLD protocol not detected on startup, using old staker until upgrade
+INFO [04-01|07:51:14.835] Data poster transactions confirmed       previousNonce=0 newNonce=4 previousL1Block=<nil> newL1Block=138,033,025
+INFO [04-01|07:51:16.282] running as validator                     txSender=0x1B4AcaBA13f8B3B858c0796A7d62FC35A5ED3BA5 actingAsWallet=0x1B4AcaBA13f8B3B858c0796A7d62FC35A5ED3BA5 whitelisted=true strategy=4
+INFO [04-01|07:51:17.487] connected to validation server           name=jit-cranelift room=10
+INFO [04-01|07:51:17.488] BlockValidator initialized               current=184884..0baa39 pending=184884..0baa39
+INFO [04-01|07:51:17.488] validator chosen                         WasmModuleRoot=184884..0baa39 chosen=jit-cranelift
+INFO [04-01|07:51:17.488] Starting pre-BOLD staker
+INFO [04-01|07:51:17.489] validated execution                      messageCount=12 globalstate="BlockHash: 0x35e51729ffcec0cb262a99abc9d5170e25960f00e084ef0d5c72093db5f68302, SendRoot: 0x0000000000000000000000000000000000000000000000000000000000000000, Batch: 4, PosInBatch: 0" WasmRoots=[]
+INFO [04-01|07:51:18.435] Data poster transactions confirmed       previousNonce=0 newNonce=10 previousL1Block=<nil> newL1Block=138,033,039
+WARN [04-01|07:51:27.141] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+INFO [04-01|07:51:30.353] Fetching Merkle Root at hotshot          height=2,635,107
+WARN [04-01|07:51:37.105] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|07:51:54.109] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|07:52:09.539] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+INFO [04-01|07:52:18.829] Fetching Merkle Root at hotshot          height=2,635,118
+WARN [04-01|07:52:33.266] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|07:53:12.962] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|07:54:20.627] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|07:55:18.085] Large gap between last seen and current block number, skipping check for reverts last=138,033,514 current=138,033,989
+WARN [04-01|07:55:29.124] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|07:56:38.811] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|07:57:18.383] Large gap between last seen and current block number, skipping check for reverts last=138,033,989 current=138,034,462
+WARN [04-01|07:57:48.070] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|07:58:57.245] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|07:59:18.543] Large gap between last seen and current block number, skipping check for reverts last=138,034,462 current=138,034,935
+WARN [04-01|08:00:04.600] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:01:12.735] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:01:18.820] Large gap between last seen and current block number, skipping check for reverts last=138,034,935 current=138,035,411
+ERROR[04-01|08:02:21.752] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:03:19.083] Large gap between last seen and current block number, skipping check for reverts last=138,035,411 current=138,035,891
+ERROR[04-01|08:03:30.345] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:04:38.646] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:05:19.511] Large gap between last seen and current block number, skipping check for reverts last=138,035,891 current=138,036,368
+ERROR[04-01|08:05:46.637] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:06:56.592] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:07:19.823] Large gap between last seen and current block number, skipping check for reverts last=138,036,368 current=138,036,844
+ERROR[04-01|08:08:04.954] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:09:14.522] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:09:20.125] Large gap between last seen and current block number, skipping check for reverts last=138,036,844 current=138,037,323
+ERROR[04-01|08:10:23.665] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:11:20.565] Large gap between last seen and current block number, skipping check for reverts last=138,037,323 current=138,037,796
+ERROR[04-01|08:11:32.136] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:12:40.944] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:13:20.863] Large gap between last seen and current block number, skipping check for reverts last=138,037,796 current=138,038,267
+ERROR[04-01|08:13:48.093] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:14:57.640] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:15:21.653] Large gap between last seen and current block number, skipping check for reverts last=138,038,267 current=138,038,740
+ERROR[04-01|08:16:06.167] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:17:13.579] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:17:21.980] Large gap between last seen and current block number, skipping check for reverts last=138,038,740 current=138,039,219
+ERROR[04-01|08:18:20.704] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:19:22.298] Large gap between last seen and current block number, skipping check for reverts last=138,039,219 current=138,039,692
+ERROR[04-01|08:19:29.224] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:20:38.173] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:21:22.563] Large gap between last seen and current block number, skipping check for reverts last=138,039,692 current=138,040,160
+ERROR[04-01|08:21:46.987] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:22:54.811] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:23:23.009] Large gap between last seen and current block number, skipping check for reverts last=138,040,160 current=138,040,629
+ERROR[04-01|08:24:02.221] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:25:11.314] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:25:23.355] Large gap between last seen and current block number, skipping check for reverts last=138,040,629 current=138,041,106
+ERROR[04-01|08:26:19.586] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:27:23.875] Large gap between last seen and current block number, skipping check for reverts last=138,041,106 current=138,041,573
+ERROR[04-01|08:27:29.187] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:28:37.307] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:29:24.192] Large gap between last seen and current block number, skipping check for reverts last=138,041,573 current=138,042,035
+ERROR[04-01|08:29:45.430] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:30:53.606] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:31:24.473] Large gap between last seen and current block number, skipping check for reverts last=138,042,035 current=138,042,514
+ERROR[04-01|08:32:02.771] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:33:10.802] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:33:24.803] Large gap between last seen and current block number, skipping check for reverts last=138,042,514 current=138,042,984
+ERROR[04-01|08:34:18.346] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:35:25.497] Large gap between last seen and current block number, skipping check for reverts last=138,042,984 current=138,043,453
+ERROR[04-01|08:35:26.201] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:36:34.409] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:37:25.845] Large gap between last seen and current block number, skipping check for reverts last=138,043,453 current=138,043,924
+ERROR[04-01|08:37:41.754] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:38:51.426] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:39:26.113] Large gap between last seen and current block number, skipping check for reverts last=138,043,924 current=138,044,395
+ERROR[04-01|08:39:59.853] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:41:07.138] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:41:26.379] Large gap between last seen and current block number, skipping check for reverts last=138,044,395 current=138,044,868
+ERROR[04-01|08:42:14.287] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:43:21.776] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:43:26.652] Large gap between last seen and current block number, skipping check for reverts last=138,044,868 current=138,045,340
+ERROR[04-01|08:44:29.475] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:45:26.914] Large gap between last seen and current block number, skipping check for reverts last=138,045,340 current=138,045,811
+ERROR[04-01|08:45:37.947] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:46:45.288] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:47:27.243] Large gap between last seen and current block number, skipping check for reverts last=138,045,811 current=138,046,287
+ERROR[04-01|08:47:53.121] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:49:00.617] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:49:27.535] Large gap between last seen and current block number, skipping check for reverts last=138,046,287 current=138,046,756
+ERROR[04-01|08:50:09.174] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:51:16.575] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:51:27.815] Large gap between last seen and current block number, skipping check for reverts last=138,046,756 current=138,047,226
+ERROR[04-01|08:52:24.401] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:53:28.076] Large gap between last seen and current block number, skipping check for reverts last=138,047,226 current=138,047,700
+ERROR[04-01|08:53:32.149] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:54:40.261] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:55:28.352] Large gap between last seen and current block number, skipping check for reverts last=138,047,700 current=138,048,177
+ERROR[04-01|08:55:48.496] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:56:55.674] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:57:28.620] Large gap between last seen and current block number, skipping check for reverts last=138,048,177 current=138,048,653
+ERROR[04-01|08:58:03.086] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|08:59:10.444] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|08:59:28.935] Large gap between last seen and current block number, skipping check for reverts last=138,048,653 current=138,049,128
+ERROR[04-01|09:00:17.810] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|09:01:24.942] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|09:01:29.209] Large gap between last seen and current block number, skipping check for reverts last=138,049,128 current=138,049,602
+ERROR[04-01|09:02:32.958] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|09:03:29.490] Large gap between last seen and current block number, skipping check for reverts last=138,049,602 current=138,050,072
+ERROR[04-01|09:03:40.551] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+ERROR[04-01|09:04:47.790] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+WARN [04-01|09:05:29.757] Large gap between last seen and current block number, skipping check for reverts last=138,050,072 current=138,050,549
+ERROR[04-01|09:05:55.334] error acting as staker                   err="error advancing stake from node 3 (hash 0xeb5104e3aff89735811e72dd9ee8d0cb299a8a182ccafcbdc21bca6b4fdb05ae): error generating node action: block validation is still pending"
+INFO [04-01|09:06:51.198] shutting down because of sigint
+INFO [04-01|09:06:51.199] HTTP server stopped                      endpoint=[::]:8547
+INFO [04-01|09:06:51.200] HTTP server stopped                      endpoint=[::]:8548
+INFO [04-01|09:06:51.200] delayed sequencer: context done          err="context canceled"
+INFO [04-01|09:06:51.205] Writing cached state to disk             block=13 hash=5ee256..b70467 root=6cc4dd..37dc73
+INFO [04-01|09:06:51.206] Persisted trie from memory database      nodes=0 size=0.00B time="375.75µs" gcnodes=0 gcsize=0.00B gctime="9.416µs" livenodes=0 livesize=0.00B
+INFO [04-01|09:06:51.207] Writing cached state to disk             block=12 hash=16b770..051ab6 root=1857d8..5384a6
+INFO [04-01|09:06:51.207] Persisted trie from memory database      nodes=0 size=0.00B time="1.292µs"  gcnodes=0 gcsize=0.00B gctime=0s        livenodes=0 livesize=0.00B
+INFO [04-01|09:06:51.207] Writing snapshot state to disk           root=831478..7e07e0
+INFO [04-01|09:06:51.207] Persisted trie from memory database      nodes=0 size=0.00B time=750ns      gcnodes=0 gcsize=0.00B gctime=0s        livenodes=0 livesize=0.00B
+INFO [04-01|09:06:51.207] Blockchain stopped
