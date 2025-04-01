@@ -12,3 +12,9 @@ services:
       - ./config:/config
       - ./wasm:/home/user/wasm/
       - ./database:/home/user/.arbitrum
+    logging:
+      driver: "awslogs"
+      options:
+        awslogs-region: "ap-southeast-1" # Update to your EC2 instance's region
+        awslogs-group: "caff-node-logs"
+        awslogs-stream: "caff-node"

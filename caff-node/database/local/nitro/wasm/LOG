@@ -1,9 +1,32 @@
-=============== Mar 30, 2025 (UTC) ===============
-05:35:03.619976 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-05:35:03.621983 db@open opening
-05:35:03.622771 version@stat F·[] S·0B[] Sc·[]
-05:35:03.623371 db@janitor F·2 G·0
-05:35:03.623599 db@open done T·1.561584ms
-=============== Mar 24, 2025 (UTC) ===============
-09:00:11.951679 db@close closing
-09:00:11.954741 db@close done T·3.060209ms
+=============== Mar 29, 2025 (UTC) ===============
+23:17:31.215979 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:17:31.218876 db@open opening
+23:17:31.377803 version@stat F·[] S·0B[] Sc·[]
+23:17:31.378855 db@janitor F·2 G·0
+23:17:31.378970 db@open done T·160.018292ms
+23:36:20.134515 db@close closing
+23:36:20.134927 db@close done T·411µs
+=============== Apr 1, 2025 (UTC) ===============
+06:05:19.645416 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+06:05:19.646192 version@stat F·[] S·0B[] Sc·[]
+06:05:19.646279 db@open opening
+06:05:19.646501 journal@recovery F·1
+06:05:19.754717 journal@recovery recovering @1
+06:05:19.757398 memdb@flush created L0@2 N·3 S·242B "Was..ion,v1":"_re..ion,v2"
+06:05:19.758945 version@stat F·[1] S·242B[242B] Sc·[0.25]
+06:05:19.760856 db@janitor F·3 G·0
+06:05:19.760895 db@open done T·114.561167ms
+06:08:07.021228 db@close closing
+06:08:07.021466 db@close done T·237.208µs
+=============== Apr 1, 2025 (UTC) ===============
+07:51:11.140647 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+07:51:11.141963 version@stat F·[1] S·242B[242B] Sc·[0.25]
+07:51:11.142156 db@open opening
+07:51:11.142463 journal@recovery F·1
+07:51:11.242276 journal@recovery recovering @3
+07:51:11.244112 memdb@flush created L0@5 N·1 S·194B "Was..ion,v5":"Was..ion,v5"
+07:51:11.244869 version@stat F·[2] S·436B[436B] Sc·[0.50]
+07:51:11.247176 db@janitor F·4 G·0
+07:51:11.247226 db@open done T·105.009375ms
+09:06:51.211583 db@close closing
+09:06:51.212070 db@close done T·485.791µs

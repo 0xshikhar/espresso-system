@@ -2,7 +2,16 @@
 
 ## Overview
 
-The Espresso Rollup is designed to facilitate cross-chain NFT transactions, providing a scalable and efficient solution for managing NFTs across different blockchain networks.
+The NFTsea Network is a espresso rollup designed to facilitate cross-chain NFT transactions, providing a scalable and efficient solution for managing NFTs across different blockchain networks like Ethereum, Arbitrum, and more.
+
+### Network Configuration
+
+you can connect to NFTsea Network by using the following configuration:
+
+- **Network Name**: NFTsea Network
+- **RPC URL**: http://47.130.1.66:8550/
+- **Chain ID**: 336699
+- **Currency Symbol**: ETH
 
 ## Local Development Setup
 
